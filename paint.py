@@ -17,4 +17,3 @@ while True:
     cv.imshow("Result",img)
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
-
