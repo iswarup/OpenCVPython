@@ -5,6 +5,7 @@ import cv2
 # cv2.imshow('Gravity',img)
 # cv2.waitKey(3000)
 
+
 # cap = cv2.VideoCapture(r"C:\Users\Swarup\Videos\out.mp4")
 
 # while True:
@@ -23,4 +24,3 @@ while True:
     cv2.imshow("WebCam captured",img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
